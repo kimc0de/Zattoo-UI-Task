@@ -29,7 +29,7 @@ window.onclick = function(event) {
   }
 }
 
-// Clear filter when click clear button
+/* Clear filter when click clear button*/
 var clear_btn = document.getElementById('clear-btn');
 clear_btn.onclick = function(){
   unCheckAll(document.getElementsByName("check_list"));
