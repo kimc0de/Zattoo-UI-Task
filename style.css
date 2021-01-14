@@ -56,8 +56,8 @@ main{
   white-space: nowrap;
 }
 .top-nav{
-  height: 30px;
-  padding: 20px 0px 10px 0px;
+  height: 40px;
+  padding-top: 20px;
   position: relative;
 }
 .top-nav .nav-link{
@@ -66,10 +66,9 @@ main{
   font-size: 14px;
   text-decoration: none;
   display: inline-block;
+  height: 100%;
 }
-.nav-link:hover{
-  color: #F2F7F8;
-}
+
 /* Side menu */
 .brand{
   padding: 10px 5px;
@@ -115,6 +114,9 @@ main{
   text-decoration: none; /*no underline*/
   display: block;
   color: #9F9F9E;
+}
+.nav-link:hover{
+  color: #F2F7F8;
 }
 
 /* Main content */
@@ -272,7 +274,6 @@ input[type='radio']{
   left: 4px;
   bottom: 4px;
   background-color: white;
-  transition: .4s;
   transition: .4s;
   border-radius: 50%;
 }
