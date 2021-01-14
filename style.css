@@ -210,14 +210,13 @@ main{
 .form-container .sort-items, .filter-items{
   position: relative;
   top: 35px;
+  cursor: pointer;
 }
 .form-container .sort-item{
   margin: 18px 0px;
-  cursor: pointer;
 }
 .form-container .filter-item{
   position: relative;
-  cursor: pointer;
   padding: 10px 0px;
 }
 .form-container .sort-label{
